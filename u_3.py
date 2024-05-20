@@ -6,7 +6,7 @@ while 1:
     while running:
         subor.write(input("Zadaj vnutro suboru: ") + "\n")
 
-        if input("chceš ešte dalej pisať? y/n  ") == "y":
+        if input("chceš ešte dalej pisať? y/n  ") == "n":
             running = False
     subor.close()
 
